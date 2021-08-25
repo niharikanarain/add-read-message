@@ -2,6 +2,13 @@
 
 ## Testing
 
+### Running app
+
+```CLI
+npm install
+npm start
+```
+
 ### Auth Endpoints
 
 POST /login
