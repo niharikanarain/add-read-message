@@ -58,6 +58,12 @@ numberOfCalls
 POST /message
 
 ```CLI
+Request Header
+
+Authorization: Bearer <insert_auth_token>
+```
+
+```CLI
 Request Body
 
 from
