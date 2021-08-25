@@ -14,20 +14,23 @@ npm start
 POST /login
 
 ```CLI
-Request Body >
+Request Body
+
 username
 pwd
 ```
 
 ```CLI
-Response Body >
+Response Body
+
 authToken
 ```
 
 POST /logout
 
 ```CLI
-Request Header >
+Request Header
+
 Authorization: Bearer <insert_auth_token>
 ```
 
@@ -36,12 +39,14 @@ Authorization: Bearer <insert_auth_token>
 GET /stats
 
 ```CLI
-Request Header >
+Request Header
+
 Authorization: Bearer <insert_auth_token>
 ```
 
 ```CLI
-Response Body >
+Response Body
+
 lastMessage: {
   from
   to
@@ -53,7 +58,8 @@ numberOfCalls
 POST /message
 
 ```CLI
-Request Body >
+Request Body
+
 from
 to
 message
