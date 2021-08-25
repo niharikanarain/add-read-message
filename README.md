@@ -12,6 +12,11 @@ username
 pwd
 ```
 
+```CLI
+Response Body >
+authToken
+```
+
 POST /logout
 
 ```CLI
@@ -26,6 +31,16 @@ GET /stats
 ```CLI
 Request Header >
 Authorization: Bearer <insert_auth_token>
+```
+
+```CLI
+Response Body >
+lastMessage: {
+  from
+  to
+  message
+}
+numberOfCalls
 ```
 
 POST /message
